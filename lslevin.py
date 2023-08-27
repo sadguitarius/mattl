@@ -1,8 +1,8 @@
 import numpy as np
+import numpy.typing as npt
 from .levin import levin
 
-
-def lslevin(N=None, om=None, D=None, W=None):
+def lslevin(N, om, D, W):
     # h = lslevin(N,om,D,W)
     # Complex Least Squares FIR filter design using Levinson's algorithm
 
